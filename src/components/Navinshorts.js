@@ -2,11 +2,11 @@ import React from 'react';
 import './Navinshorts.css';
 import HamburgerDrawer from './HamburgerDrawer';
 
-const Navinshorts = () => {
+const Navinshorts = ({setcategory}) => {
   return (
     <div className='nav'>
         <div className='icon'>
-            <HamburgerDrawer.js/>
+            <HamburgerDrawer setcategory={setcategory}/>
         </div>
         <img
         style={{cursor:"pointer"}}

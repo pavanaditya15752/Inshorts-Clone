@@ -1,0 +1,38 @@
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.downloadMessage{
+    width:95%;
+    display: flex;
+    align-items: center;
+    background: #f44336;
+    height: 48px;
+    padding: 0 40px;
+    margin:20px 0 35px 0;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.downloadtext{
+    flex: 1;
+
+}
+.Loadmore{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 7px 25px;
+    font-size: 13px;
+    margin-top: -20px;
+
+}
+@media(max-width:995px){
+    .downloadMessage{
+        display: none;
+    }
+}
